@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.text {
+    width: 400px;
+    margin: 0 auto;
+}
+
+Стили для основного задания
+.mask {
+    position: absolute;
+    inset: 0;
+    background-color: hsla(0, 0%, 0%, 0.8 );
+}
+
+.modal {
+    width: 320px;
+    background-color: #fff;
+    padding: 15px;
+    position: fixed;
+    top: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.modal-close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -20px;
+    right: -20px;
+    background-color: transparent;
+    border: none;
+    background-image: url("./img/close.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.btn {
+    padding-block: 7px;
+    padding-inline: 15px;
+    font-style: inherit;
+    font-size: inherit;
+    color: #fff;
+    border: none;
+}
+
+.success {
+    background-color: #35bb27;
+}
+
+.cancel {
+    background-color: #f9861f;
+}
+
+
