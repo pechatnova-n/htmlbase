@@ -4,7 +4,7 @@
     line-height: 1.5;
 }
 
-.nav {
+.pagination {
     display: flex;
     justify-content: center;
     column-gap: 6px;
