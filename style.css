@@ -1,0 +1,55 @@
+.composition {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-image: url("./img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.composition_item {
+    display: block;
+    position: absolute;
+}
+
+.planet-1 {
+    right: 110px;
+    top: 75px;
+    z-index: 7;
+}
+
+.planet-2 {
+    top: 20px;
+    left: 170px;
+    z-index: 1;
+}
+
+.planet-3 {
+    top: 80px;
+    left: 60px;
+    z-index: 2;
+}
+
+.planet-4 {
+    bottom: 20px;
+    left: 145px;
+    z-index: 4;
+}
+
+.planet-5 {
+    top: 160px;
+    left: 145px;
+    z-index: 3;
+}
+
+.planet-6 {
+    bottom: 0;
+    right: 35px;
+    z-index: 6;
+}
+
+.planet-7 {
+    bottom: 61px;
+    left: 110px;
+    z-index: 5;
+}
