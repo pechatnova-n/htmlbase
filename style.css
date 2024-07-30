@@ -14,22 +14,27 @@ body {
     margin: 0 auto;
 }
 
-Стили для основного задания
-.mask {
+.modal {
     position: absolute;
+    display: flex;
     inset: 0;
     background-color: hsla(0, 0%, 0%, 0.8 );
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
 }
 
-.modal {
+
+.modal_content {
+    position: relative;
     width: 320px;
     background-color: #fff;
     padding: 15px;
-    position: fixed;
-    top: 75px;
-    left: 50%;
-    transform: translateX(-50%);
+}
 
+.modal_buttons {
+    display: inline-flex;
+    column-gap: 5px;
 }
 
 .modal-close {
@@ -43,6 +48,7 @@ body {
     background-image: url("./img/close.png");
     background-repeat: no-repeat;
     background-size: contain;
+    z-index: 2;
 }
 
 .btn {
